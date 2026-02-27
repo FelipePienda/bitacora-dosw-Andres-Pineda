@@ -1,0 +1,32 @@
+Análisis de Requerimiento Funcional: RF-01
+1. Generalidades de la Funcionalidad
+Código: RF-01
+
+Nombre: Inscripción a programa de pregrado (Ingeniería de Sistemas)
+
+Descripción: Permitir al aspirante registrar sus datos personales y académicos para iniciar el proceso de admisión a la carrera de Ingeniería de Sistemas a través del formulario web oficial.
+
+Actor Principal: Aspirante
+
+Precondiciones:  El sistema debe estar en línea.
+
+El aspirante debe haber navegado hasta la sección de "Oferta Académica" y seleccionado "Ingeniería de Sistemas".
+
+Flujo Básico
+Actor: El aspirante selecciona "Oferta Académica" en el menú principal.
+
+Sistema: Despliega las opciones de carreras.
+
+Actor: Selecciona "Ingeniería de Sistemas" y hace clic en el botón "Inscríbete".
+
+Sistema: Muestra el formulario de admisión.
+
+Actor: Completa los campos obligatorios y presiona "Validar".
+
+Sistema: Valida la información y permite continuar al siguiente paso del registro.
+
+Flujo Alterno (Error)
+Paso 5 (Error): Si el actor deja un campo obligatorio vacío (ej. "Tipo Admisión") y presiona "Validar".
+
+Respuesta Sistema: El sistema bloquea el envío y muestra un mensaje emergente: "El campo Tipo Admisión es obligatorio, por favor diligéncielo".
+

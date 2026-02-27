@@ -1,0 +1,17 @@
+1. Actores (Personas)
+Pasajero: Solicita viajes, paga y califica.
+
+Conductor: Acepta viajes, navega y recibe pagos.
+
+Administrador de Uber: Gestiona soporte y usuarios.
+
+2. El Sistema (El núcleo)
+Uber App System: El software que estamos analizando.
+
+3. Sistemas Externos (Sistemas que Uber usa)
+Google Maps API: Para geolocalización y rutas.
+
+Stripe / Braintree: Para procesar pagos con tarjeta.
+
+
+
