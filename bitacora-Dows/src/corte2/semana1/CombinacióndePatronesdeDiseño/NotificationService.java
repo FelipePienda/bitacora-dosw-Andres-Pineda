@@ -25,4 +25,8 @@ public class NotificationService {
         }
         this.strategy.send(message);
     }
+
+    public void notifyUser(String message) {
+        sendNotification(message);
+    }
 }
